@@ -53,20 +53,4 @@ public class Area {
 		}
 	}
 		
-		case 2:
-			System.out.println("Enter base of the triangle: ");
-			Double base = sc.nextDouble();
-			System.out.println("Enter hieght of the triangle: ");
-			Double hieght = sc.nextDouble();
-			System.out.println();
-			area = 0.5 * (base * hieght);
-			System.out.println("The area of this triangle is: "+ area);
-			break;
 		
-		default:
-			System.out.println("Invalid Input");
-			break;
-		}
-		
-		}
-	}
