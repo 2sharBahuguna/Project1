@@ -13,21 +13,6 @@ public class Area {
 		double area = 0.0;
 		switch(choice)
 		{
-		# Project1
-package area;
-import java.util.*;
-public class Area {
-	public static void main(String [] args)
-	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("**************WELCOME****************");
-		System.out.println("Please Enter 1 for area of circle");
-		System.out.println("Please enter 2 for area of  triangle");
-		System.out.println();
-		int choice = sc.nextInt();
-		double area = 0.0;
-		switch(choice)
-		{
 		case 1:
 			System.out.println("Enter the radius of the circle: ");
 			Double c_radius = sc.nextDouble();
