@@ -13,6 +13,12 @@ public class Area {
 		double area = 0.0;
 		switch(choice)
 		{
+		case 1:
+			System.out.println("Enter the radius of the circle: ");
+			Double c_radius = sc.nextDouble();
+			area = Math.PI *Math.pow(c_radius, 2.0);
+			System.out.println("The area of this circle: "+ area);
+			break;
 
 		case 2:
 			System.out.println("Enter base of the triangle: ");
